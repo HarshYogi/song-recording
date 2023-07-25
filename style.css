@@ -1,0 +1,90 @@
+body{
+    background: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+h1{
+    color: #dbc4a8;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dropdown{
+    width: 40%;
+    margin: 0px auto;
+}
+
+#songSelect{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #ffffffc2;
+}
+
+option{
+    font-size: 10px;
+}
+
+#lyricsDisplay{
+    color: white;
+    box-shadow: 0px 0px 10px 5px #e8e8e8;
+    width: 80%;
+    margin: 50px auto;
+    font-size: 25px;
+    padding: 15px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.buttons{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#recordingsList{
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.audios{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.audio{
+    color: white;
+    font-size: 35px;
+    margin-right: 40px;
+}
+
+audio{
+    width: 50%;
+}
+
+#lyricsImageContainer{
+    width: 70%;
+    margin: 50px auto;
+}
+
+#lyricsImage{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 2px white;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Song Recording Website</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h1>Song Recording Website</h1>
+    <div class="dropdown">
+        <select id="songSelect">
+            
+            <option value="" disabled selected>Select a song</option>
+          
+            <option value="song1">10000 Hour</option>
+            <option value="song2">Chaand Baaliyaan</option>
+            <option value="song3">One Call Away</option>
+            <option value="song4">Kabhi tumhe</option>
+            <option value="song5">Never be the Same</option>
+            <option value="song6">Pasoori</option>
+            <option value="song7">Steal my Girl</option>
+            <option value="song8">Ranjha</option>
+        </select>
+    </div>
+
+    <div id="lyricsImageContainer">
+        <img id="lyricsImage" src="" alt="Selected Song Image">
+    </div>
+
+    <div class="buttons">
+        <button id="startRecording" class="button" disabled>Start Recording</button>
+        <button id="stopRecording" class="button" disabled>Stop Recording</button>
+    </div>
+
+    <div id="recordingsList">
+        <!-- Recorded audio files will be listed here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
